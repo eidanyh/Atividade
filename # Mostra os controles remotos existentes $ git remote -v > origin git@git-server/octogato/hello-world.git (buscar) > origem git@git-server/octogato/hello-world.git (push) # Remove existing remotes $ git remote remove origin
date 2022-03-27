@@ -4,3 +4,32 @@ $ git remote -v
 > origin  git@git-server/octocat/hello-world.git (push)
 # Remove existing remotes
 $ git remote remove origin
+public class Atividade {
+    public static void main (String[] args){
+        Instrumento trombone = new Instrumento("Trombone");
+         
+        trombone.escreverNome();
+    
+        trombone.Fabricante = "Vicent Bach";
+        trombone.dono = "Danielle Nunes";
+        trombone.cor = "Dourado";
+        trombone.anoFabricacao = 1980;
+        trombone.idade = 42;
+
+        String nomeFabricante = trombone.nomeFabricante();
+
+       // trombone.escreverIdade();
+       
+        //trombone.escreverCor();
+
+
+
+
+        
+
+        
+
+
+    }
+    
+}
